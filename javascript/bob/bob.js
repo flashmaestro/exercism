@@ -1,20 +1,28 @@
 var Bob = function() {
 	this.hey = function(str) {
-		var result = "";
-		var last_char = str.substr(-1);
-		if(last_char==".") {
-			result = "Fine. Be that way!";
-		} else if(last_char=="!") {
-			var str_temp = str.toUpperCase();
-			if(str_temp == str) {
-				result = "Woah, chill out!";
-			} else {
-				result = "Fine. Be that way!";
-			}
-		} else if(last_char=="?") {
-			result = "Sure.";
+		if is_question.call(str) {
+			return "Sure.";
+
+		} else if this.is_yell.call(str) {
+			result = "Woah, chill out!";
+			
+		} else if this.is_without.call(str) {
+			return "Fine. Be that way!";
 		}
-		return result;
+		return "Whatever.";
+	}
+
+	this.is_question = function(str) {
+		return str.substr(-1) == "?" ? true : false;
+	}
+
+	this.is_yell = function(str) {
+		var pattern = new RegExp("[A-z]");
+		return str == str.toUpperCase() && pattern.test(str);
+	}
+
+	this.is_without = function(str) {
+		return str.trim().length ? true : false;
 	}
 };
 module.exports = Bob;
