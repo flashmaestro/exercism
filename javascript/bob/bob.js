@@ -1,12 +1,12 @@
 var Bob = function() {
 	this.hey = function(str) {
-		if is_question.call(str) {
+		if (this.is_question(str)) {
 			return "Sure.";
 
-		} else if this.is_yell.call(str) {
-			result = "Woah, chill out!";
+		} else if (this.is_yell(str)) {
+			return "Woah, chill out!";
 			
-		} else if this.is_without.call(str) {
+		} else if (this.is_without(str)) {
 			return "Fine. Be that way!";
 		}
 		return "Whatever.";
@@ -22,7 +22,7 @@ var Bob = function() {
 	}
 
 	this.is_without = function(str) {
-		return str.trim().length ? true : false;
+		return str.trim().length==0 ? true : false;
 	}
 };
 module.exports = Bob;
