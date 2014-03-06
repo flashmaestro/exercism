@@ -15,7 +15,11 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         NSLog(@"Hello, World!");
+        NSString* str = @"Does this cryogenic chamber make me look fat?";
         
+        NSString* last_char = [NSString stringWithFormat:@"%c", [str characterAtIndex:[str length]-1]];
+        NSLog(@"%@", last_char);
+        NSLog(@"%d", [last_char isEqualToString:@"?"]);
     }
     return 0;
 }

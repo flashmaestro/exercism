@@ -12,25 +12,26 @@
 
 - (NSString*) hey:(NSString *)str {
     if ([self is_without:str]) {
-        return @"Fine. Be that way!";
+        return @"Fine, be that way.";
     } else if ([self is_yell:str]) {
         return @"Woah, chill out!";
     } else if([self is_question:str]) {
         return @"Sure.";
+    } else {
+        return @"Whatever.";
     }
-    return @"Whatever.";
 }
 
 - (BOOL)is_yell:(NSString *)str {
-    return false;
+    return [[str uppercaseString] isEqualToString:str] && [str rangeOfString:@"[A-z]" options:NSRegularExpressionSearch].location != NSNotFound;
 }
 
 -(BOOL)is_question:(NSString *)str {
-    return false;
+    return [str hasSuffix:@"?"];
 }
 
 -(BOOL)is_without:(NSString *)str {
-    return false;
+    return ![[str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length];
 }
 
 @end
