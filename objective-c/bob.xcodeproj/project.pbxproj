@@ -10,7 +10,22 @@
 		0A15BF9618C88B0A006D411A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A15BF9518C88B0A006D411A /* Foundation.framework */; };
 		0A15BF9918C88B0A006D411A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A15BF9818C88B0A006D411A /* main.m */; };
 		0A15BF9D18C88B0A006D411A /* bob.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A15BF9C18C88B0A006D411A /* bob.1 */; };
+		0A15BFA918C88C1B006D411A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A15BFA818C88C1B006D411A /* XCTest.framework */; };
+		0A15BFAF18C88C1B006D411A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A15BFAD18C88C1B006D411A /* InfoPlist.strings */; };
+		0A15BFB118C88C1B006D411A /* bob_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A15BFB018C88C1B006D411A /* bob_Tests.m */; };
+		0A15BFBC18C88E61006D411A /* Bob.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A15BFBB18C88E61006D411A /* Bob.m */; };
+		0A15BFBD18C88E61006D411A /* Bob.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A15BFBB18C88E61006D411A /* Bob.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A15BFB318C88C1B006D411A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A15BF8A18C88B0A006D411A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A15BF9118C88B0A006D411A;
+			remoteInfo = bob;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0A15BF9018C88B0A006D411A /* CopyFiles */ = {
@@ -31,6 +46,14 @@
 		0A15BF9818C88B0A006D411A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A15BF9B18C88B0A006D411A /* bob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bob-Prefix.pch"; sourceTree = "<group>"; };
 		0A15BF9C18C88B0A006D411A /* bob.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bob.1; sourceTree = "<group>"; };
+		0A15BFA718C88C1B006D411A /* bob Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bob Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A15BFA818C88C1B006D411A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0A15BFAC18C88C1B006D411A /* bob Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bob Tests-Info.plist"; sourceTree = "<group>"; };
+		0A15BFAE18C88C1B006D411A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A15BFB018C88C1B006D411A /* bob_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bob_Tests.m; sourceTree = "<group>"; };
+		0A15BFB218C88C1B006D411A /* bob Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bob Tests-Prefix.pch"; sourceTree = "<group>"; };
+		0A15BFBA18C88E61006D411A /* Bob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bob.h; sourceTree = "<group>"; };
+		0A15BFBB18C88E61006D411A /* Bob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +65,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A15BFA418C88C1B006D411A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A15BFA918C88C1B006D411A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0A15BF9718C88B0A006D411A /* bob */,
+				0A15BFAA18C88C1B006D411A /* bob Tests */,
 				0A15BF9418C88B0A006D411A /* Frameworks */,
 				0A15BF9318C88B0A006D411A /* Products */,
 			);
@@ -58,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				0A15BF9218C88B0A006D411A /* bob */,
+				0A15BFA718C88C1B006D411A /* bob Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				0A15BF9518C88B0A006D411A /* Foundation.framework */,
+				0A15BFA818C88C1B006D411A /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +110,8 @@
 				0A15BF9818C88B0A006D411A /* main.m */,
 				0A15BF9C18C88B0A006D411A /* bob.1 */,
 				0A15BF9A18C88B0A006D411A /* Supporting Files */,
+				0A15BFBA18C88E61006D411A /* Bob.h */,
+				0A15BFBB18C88E61006D411A /* Bob.m */,
 			);
 			path = bob;
 			sourceTree = "<group>";
@@ -84,6 +120,25 @@
 			isa = PBXGroup;
 			children = (
 				0A15BF9B18C88B0A006D411A /* bob-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A15BFAA18C88C1B006D411A /* bob Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0A15BFB018C88C1B006D411A /* bob_Tests.m */,
+				0A15BFAB18C88C1B006D411A /* Supporting Files */,
+			);
+			path = "bob Tests";
+			sourceTree = "<group>";
+		};
+		0A15BFAB18C88C1B006D411A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A15BFAC18C88C1B006D411A /* bob Tests-Info.plist */,
+				0A15BFAD18C88C1B006D411A /* InfoPlist.strings */,
+				0A15BFB218C88C1B006D411A /* bob Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +163,24 @@
 			productReference = 0A15BF9218C88B0A006D411A /* bob */;
 			productType = "com.apple.product-type.tool";
 		};
+		0A15BFA618C88C1B006D411A /* bob Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A15BFB718C88C1B006D411A /* Build configuration list for PBXNativeTarget "bob Tests" */;
+			buildPhases = (
+				0A15BFA318C88C1B006D411A /* Sources */,
+				0A15BFA418C88C1B006D411A /* Frameworks */,
+				0A15BFA518C88C1B006D411A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A15BFB418C88C1B006D411A /* PBXTargetDependency */,
+			);
+			name = "bob Tests";
+			productName = "bob Tests";
+			productReference = 0A15BFA718C88C1B006D411A /* bob Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +189,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "G.B.U Studio";
+				TargetAttributes = {
+					0A15BFA618C88C1B006D411A = {
+						TestTargetID = 0A15BF9118C88B0A006D411A;
+					};
+				};
 			};
 			buildConfigurationList = 0A15BF8D18C88B0A006D411A /* Build configuration list for PBXProject "bob" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -130,9 +208,21 @@
 			projectRoot = "";
 			targets = (
 				0A15BF9118C88B0A006D411A /* bob */,
+				0A15BFA618C88C1B006D411A /* bob Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A15BFA518C88C1B006D411A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A15BFAF18C88C1B006D411A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A15BF8E18C88B0A006D411A /* Sources */ = {
@@ -140,10 +230,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A15BF9918C88B0A006D411A /* main.m in Sources */,
+				0A15BFBC18C88E61006D411A /* Bob.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A15BFA318C88C1B006D411A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A15BFB118C88C1B006D411A /* bob_Tests.m in Sources */,
+				0A15BFBD18C88E61006D411A /* Bob.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A15BFB418C88C1B006D411A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A15BF9118C88B0A006D411A /* bob */;
+			targetProxy = 0A15BFB318C88C1B006D411A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A15BFAD18C88C1B006D411A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A15BFAE18C88C1B006D411A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0A15BF9E18C88B0A006D411A /* Debug */ = {
@@ -232,6 +351,40 @@
 			};
 			name = Release;
 		};
+		0A15BFB518C88C1B006D411A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bob Tests/bob Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bob Tests/bob Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0A15BFB618C88C1B006D411A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bob Tests/bob Tests-Prefix.pch";
+				INFOPLIST_FILE = "bob Tests/bob Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -249,6 +402,15 @@
 			buildConfigurations = (
 				0A15BFA118C88B0A006D411A /* Debug */,
 				0A15BFA218C88B0A006D411A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A15BFB718C88C1B006D411A /* Build configuration list for PBXNativeTarget "bob Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A15BFB518C88C1B006D411A /* Debug */,
+				0A15BFB618C88C1B006D411A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
