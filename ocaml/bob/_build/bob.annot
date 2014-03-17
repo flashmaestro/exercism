@@ -1,0 +1,40 @@
+"bob.ml" 20 258 262 "bob.ml" 20 258 272
+type(
+  string -> '_a
+)
+ident(
+  def is_without "bob.ml" 23 337 337 "bob.ml" 1 0 -1
+)
+"bob.ml" 20 258 273 "bob.ml" 20 258 280
+type(
+  string
+)
+ident(
+  def message "bob.ml" 21 283 285 "bob.ml" 21 283 335
+)
+"bob.ml" 21 283 288 "bob.ml" 21 283 301
+type(
+  string -> int
+)
+ident(
+  ext_ref Core.Std.String.length
+)
+"bob.ml" 21 283 302 "bob.ml" 21 283 309
+type(
+  string
+)
+ident(
+  int_ref message "bob.ml" 20 258 273 "bob.ml" 20 258 280
+)
+"bob.ml" 21 283 288 "bob.ml" 21 283 309
+type(
+  int
+)
+"bob.ml" 21 283 310 "bob.ml" 21 283 312
+type(
+  [ `Consider_using_phys_equal ] ->
+  [ `Consider_using_phys_equal ] -> [ `Consider_using_phys_equal ]
+)
+ident(
+  ext_ref Core.Std.( == )
+)

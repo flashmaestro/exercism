@@ -15,4 +15,16 @@ Answers to `hey` like a teenager.
   # response_for "Coding is cool."
   "Whatever."
 *)
-val response_for : string -> string
+open Core.Std let response_for input =
+	"test"
+
+
+let is_without message =
+	if String.length (String.trim message) == 0 then true else false
+
+
+let iw_yell message =
+	String.uppercase message == message
+
+let is_question message = 
+	true

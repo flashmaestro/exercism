@@ -1,11 +1,20 @@
 module Bob (responseFor) where
 
+import Data.Char as C
+
 responseFor :: String -> String
-responseFor = undefined
+isQuestion :: String -> Bool
+isYell :: String -> Bool
+isWithout :: String -> Bool
 
+responseFor str
+	| isWithout str = "Fine. Be that way!"
+	| isYell str = "Woah, chill out!"
+	| isQuestion str = "Sure."
+	| otherwise = "Whatever."
 
-is_question str = true
+isQuestion str = last str == '?'
 
-is_yell str = str == map toUpper str
+isYell str = any isAlpha str && all isUpper (filter isAlpha str)
 
-is_without = true
+isWithout str = all isSpace str

@@ -1,0 +1,88 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 27341e11, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/carrotcarrot/.sbt/boot/scala-2.10.3/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:1: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:3: not found: type FlatSpec[0m
+[0m[[31merror[0m] [0mclass BobSpecs extends FlatSpec with Matchers {[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:3: not found: type Matchers[0m
+[0m[[31merror[0m] [0mclass BobSpecs extends FlatSpec with Matchers {[0m
+[0m[[31merror[0m] [0m                                     ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:4: not found: type Bob[0m
+[0m[[31merror[0m] [0m  def teenager = new Bob[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:6: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to a statement" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:11: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to shouting" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:17: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to questions" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:23: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "allow questions to end with numbers" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:29: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to talking forcefully" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:35: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "allow acroynms in regular speech" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:41: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "see forceful questions as shouting" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:47: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "allow numbers when shouting" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:53: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "see only numbers as speech" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:59: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to questions with only numbers" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:65: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to shouting with no exclamation mark" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:71: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to statements with ? in the middle" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:77: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to prattling on" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:83: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to silence" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:89: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to prolonged silence" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/carrotcarrot/Desktop/exercism/scala/bob/src/test/scala/bob_test.scala:95: not found: value it[0m
+[0m[[31merror[0m] [0m  it should "respond to multiple line questions" in {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m20 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
