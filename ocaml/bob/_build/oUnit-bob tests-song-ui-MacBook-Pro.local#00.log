@@ -1,0 +1,152 @@
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Runner: processes
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Chooser: simple
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration suite_name = "bob tests"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration cache_filename = "/Users/carrotcarrot/Desktop/exercism/ocaml/bob/_build/oUnit-$(suite_name).cache"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration display = "true"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration results_style_1_X = "false"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration verbose = "false"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration health_check_interval = "1."
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration testdata_dir = "none"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration chooser = "simple"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration output_html_dir = "none"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration processes_kill_period = "5."
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration runner = "processes"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration shards = "2"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration processes_grace_period = "5."
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration log_encoding = "utf-8"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration output_junit_file = "none"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Configuration output_file = "/Users/carrotcarrot/Desktop/exercism/ocaml/bob/_build/oUnit-$(suite_name)-$(shard_id).log"
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Using 2 workers maximum.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Starting worker number song-ui-MacBook-Pro.local#01.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Worker song-ui-MacBook-Pro.local#01 started.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Starting worker number song-ui-MacBook-Pro.local#02.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Worker song-ui-MacBook-Pro.local#02 started.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:1:shouts, bob tests:0:something.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:0:something.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:1:shouts, bob tests:0:something.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Start test bob tests:1:shouts.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:1:shouts, bob tests:0:something.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:0:something is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:1:shouts, bob tests:0:something.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:0:something.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Test bob tests:1:shouts is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:1:shouts, bob tests:0:something.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: End test bob tests:1:shouts.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:2:questions, bob tests:1:shouts.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:3:forceful talking, bob tests:2:questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:2:questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Start test bob tests:3:forceful talking.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:3:forceful talking, bob tests:2:questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:2:questions is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:3:forceful talking, bob tests:2:questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:2:questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Test bob tests:3:forceful talking is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:3:forceful talking, bob tests:2:questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: End test bob tests:3:forceful talking.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:4:acronyms, bob tests:3:forceful talking.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:5:forceful questions, bob tests:4:acronyms.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:4:acronyms.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Start test bob tests:5:forceful questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:5:forceful questions, bob tests:4:acronyms.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:4:acronyms is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:5:forceful questions, bob tests:4:acronyms.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:4:acronyms.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Test bob tests:5:forceful questions is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:5:forceful questions, bob tests:4:acronyms.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: End test bob tests:5:forceful questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:6:shouting with special characters, bob tests:5:forceful questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:7:shouting numbers, bob tests:6:shouting with special characters.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:6:shouting with special characters.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Start test bob tests:7:shouting numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:7:shouting numbers, bob tests:6:shouting with special characters.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:6:shouting with special characters is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:7:shouting numbers, bob tests:6:shouting with special characters.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:6:shouting with special characters.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Test bob tests:7:shouting numbers is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:7:shouting numbers, bob tests:6:shouting with special characters.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: End test bob tests:7:shouting numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:8:statement containing question mark, bob tests:7:shouting numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:8:statement containing question mark.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:9:silence, bob tests:8:statement containing question mark.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Start test bob tests:9:silence.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:9:silence, bob tests:8:statement containing question mark.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Test bob tests:9:silence is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:9:silence, bob tests:8:statement containing question mark.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:8:statement containing question mark is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: End test bob tests:9:silence.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:9:silence, bob tests:8:statement containing question mark.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:8:statement containing question mark.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:10:prolonged silence, bob tests:8:statement containing question mark.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Start test bob tests:10:prolonged silence.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:11:non-letters with question, bob tests:10:prolonged silence.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:11:non-letters with question.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:11:non-letters with question, bob tests:10:prolonged silence.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Test bob tests:10:prolonged silence is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:11:non-letters with question, bob tests:10:prolonged silence.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: End test bob tests:10:prolonged silence.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:11:non-letters with question is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:11:non-letters with question, bob tests:10:prolonged silence.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:11:non-letters with question.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:12:multiple line questons, bob tests:11:non-letters with question.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Start test bob tests:12:multiple line questons.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:13:other whitespace, bob tests:12:multiple line questons.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:13:other whitespace.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:13:other whitespace, bob tests:12:multiple line questons.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Test bob tests:12:multiple line questons is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:13:other whitespace, bob tests:12:multiple line questons.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: End test bob tests:12:multiple line questons.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:13:other whitespace, bob tests:12:multiple line questons.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:13:other whitespace is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:14:only numbers, bob tests:13:other whitespace.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:13:other whitespace.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Start test bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:14:only numbers, bob tests:13:other whitespace.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Still 2 tests running : bob tests:15:question with only numbers, bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:15:question with only numbers, bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:15:question with only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Still 2 tests running : bob tests:15:question with only numbers, bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:15:question with only numbers, bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: Test bob tests:14:only numbers is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Still 2 tests running : bob tests:15:question with only numbers, bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:15:question with only numbers, bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#02 I: End test bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Still 2 tests running : bob tests:15:question with only numbers, bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 2 tests running: bob tests:15:question with only numbers, bob tests:14:only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:15:question with only numbers is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Still 1 tests running : bob tests:15:question with only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 1 tests running: bob tests:15:question with only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:15:question with only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Still 1 tests running : bob tests:15:question with only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 1 tests running: bob tests:15:question with only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: 0 tests running: .
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Worker song-ui-MacBook-Pro.local#02 has ended.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Worker song-ui-MacBook-Pro.local#01 has ended.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Used 2 worker during test execution.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Run 8 tests with shard song-ui-MacBook-Pro.local#02.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Run 8 tests with shard song-ui-MacBook-Pro.local#01.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: ==============
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Summary:
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:15:question with only numbers is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:14:only numbers is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:13:other whitespace is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:12:multiple line questons is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:11:non-letters with question is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:10:prolonged silence is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:8:statement containing question mark is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:9:silence is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:7:shouting numbers is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:6:shouting with special characters is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:5:forceful questions is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:4:acronyms is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:3:forceful talking is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:2:questions is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:1:shouts is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Test bob tests:0:something is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Ran: 16 tests in: 0.11 seconds.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Cases: 16.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Tried: 16.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Errors: 0.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Failures: 0.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Skip: 0.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Todo: 0.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#00 I: Timeout: 0.

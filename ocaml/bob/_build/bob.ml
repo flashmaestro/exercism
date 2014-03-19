@@ -1,34 +1,11 @@
-(*
-Answers to `hey` like a teenager.
-
-## Examples
-
-  # response_for ""
-  "Fine. Be that way!"
-
-  # response_for "Do you like math?"
-  "Sure."
-
-  # response_for "HELLO!"
-  "Woah, chill out!"
-
-  # response_for "Coding is cool."
-  "Whatever."
-*)
-open Core.Std
-
-let is_without message =
-  if String.length message == 0 then true else false
-
-let iw_yell message =
-  String.uppercase message == message
+let is_yell message =
+  String.uppercase message = message && Str.string_match (Str.regexp "[^A-Z]*[A-Z]+[^A-Z]*") message 0
 
 let is_question message = 
-  true
+  message.[String.length message-1] = '?'
 
-let response_for input =
-  if (is_without input) then "Fine. Be that way!" else
-    if is_yell input then "Woah, chill out!" else
-      if is_question input then "Sure." else "Whatever."
-
-
+let response_for input = match String.trim input with
+  | "" -> "Fine. Be that way!"
+  | message when is_yell message -> "Woah, chill out!"
+  | message when is_question message -> "Sure."
+  | _ -> "Whatever."

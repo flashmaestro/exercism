@@ -1,0 +1,24 @@
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:0:something.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:0:something is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:0:something.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:2:questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:2:questions is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:2:questions.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:4:acronyms.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:4:acronyms is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:4:acronyms.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:6:shouting with special characters.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:6:shouting with special characters is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:6:shouting with special characters.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:8:statement containing question mark.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:8:statement containing question mark is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:8:statement containing question mark.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:11:non-letters with question.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:11:non-letters with question is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:11:non-letters with question.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:13:other whitespace.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:13:other whitespace is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:13:other whitespace.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Start test bob tests:15:question with only numbers.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: Test bob tests:15:question with only numbers is successful.
+2014-03-19T04:40:52+00:00 song-ui-MacBook-Pro.local#01 I: End test bob tests:15:question with only numbers.

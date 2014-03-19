@@ -1,40 +1,323 @@
-"bob.ml" 20 258 262 "bob.ml" 20 258 272
+"bob.ml" 1 0 4 "bob.ml" 1 0 11
 type(
-  string -> '_a
+  string -> bool
 )
 ident(
-  def is_without "bob.ml" 23 337 337 "bob.ml" 1 0 -1
+  def is_yell "bob.ml" 4 126 126 "bob.ml" 1 0 -1
 )
-"bob.ml" 20 258 273 "bob.ml" 20 258 280
+"bob.ml" 1 0 12 "bob.ml" 1 0 19
 type(
   string
 )
 ident(
-  def message "bob.ml" 21 283 285 "bob.ml" 21 283 335
+  def message "bob.ml" 2 22 24 "bob.ml" 2 22 124
 )
-"bob.ml" 21 283 288 "bob.ml" 21 283 301
+"bob.ml" 2 22 24 "bob.ml" 2 22 40
+type(
+  string -> string
+)
+ident(
+  ext_ref String.uppercase
+)
+"bob.ml" 2 22 41 "bob.ml" 2 22 48
+type(
+  string
+)
+ident(
+  int_ref message "bob.ml" 1 0 12 "bob.ml" 1 0 19
+)
+"bob.ml" 2 22 24 "bob.ml" 2 22 48
+call(
+  stack
+)
+type(
+  string
+)
+"bob.ml" 2 22 49 "bob.ml" 2 22 50
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"bob.ml" 2 22 51 "bob.ml" 2 22 58
+type(
+  string
+)
+ident(
+  int_ref message "bob.ml" 1 0 12 "bob.ml" 1 0 19
+)
+"bob.ml" 2 22 24 "bob.ml" 2 22 58
+type(
+  bool
+)
+"bob.ml" 2 22 59 "bob.ml" 2 22 61
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"bob.ml" 2 22 62 "bob.ml" 2 22 78
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"bob.ml" 2 22 80 "bob.ml" 2 22 90
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"bob.ml" 2 22 91 "bob.ml" 2 22 113
+type(
+  string
+)
+"bob.ml" 2 22 80 "bob.ml" 2 22 113
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"bob.ml" 2 22 115 "bob.ml" 2 22 122
+type(
+  string
+)
+ident(
+  int_ref message "bob.ml" 1 0 12 "bob.ml" 1 0 19
+)
+"bob.ml" 2 22 123 "bob.ml" 2 22 124
+type(
+  int
+)
+"bob.ml" 2 22 62 "bob.ml" 2 22 124
+call(
+  tail
+)
+type(
+  bool
+)
+"bob.ml" 2 22 24 "bob.ml" 2 22 124
+type(
+  bool
+)
+"bob.ml" 1 0 12 "bob.ml" 2 22 124
+type(
+  string -> bool
+)
+"bob.ml" 4 126 130 "bob.ml" 4 126 141
+type(
+  string -> bool
+)
+ident(
+  def is_question "bob.ml" 7 196 196 "bob.ml" 1 0 -1
+)
+"bob.ml" 4 126 142 "bob.ml" 4 126 149
+type(
+  string
+)
+ident(
+  def message "bob.ml" 5 153 155 "bob.ml" 5 153 194
+)
+"bob.ml" 5 153 155 "bob.ml" 5 153 162
+type(
+  string
+)
+ident(
+  int_ref message "bob.ml" 4 126 142 "bob.ml" 4 126 149
+)
+"bob.ml" 5 153 164 "bob.ml" 5 153 177
 type(
   string -> int
 )
 ident(
-  ext_ref Core.Std.String.length
+  ext_ref String.length
 )
-"bob.ml" 21 283 302 "bob.ml" 21 283 309
+"bob.ml" 5 153 178 "bob.ml" 5 153 185
 type(
   string
 )
 ident(
-  int_ref message "bob.ml" 20 258 273 "bob.ml" 20 258 280
+  int_ref message "bob.ml" 4 126 142 "bob.ml" 4 126 149
 )
-"bob.ml" 21 283 288 "bob.ml" 21 283 309
+"bob.ml" 5 153 164 "bob.ml" 5 153 185
 type(
   int
 )
-"bob.ml" 21 283 310 "bob.ml" 21 283 312
+"bob.ml" 5 153 185 "bob.ml" 5 153 186
 type(
-  [ `Consider_using_phys_equal ] ->
-  [ `Consider_using_phys_equal ] -> [ `Consider_using_phys_equal ]
+  int -> int -> int
 )
 ident(
-  ext_ref Core.Std.( == )
+  ext_ref Pervasives.( - )
+)
+"bob.ml" 5 153 186 "bob.ml" 5 153 187
+type(
+  int
+)
+"bob.ml" 5 153 164 "bob.ml" 5 153 187
+type(
+  int
+)
+"bob.ml" 5 153 155 "bob.ml" 5 153 188
+type(
+  char
+)
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"bob.ml" 5 153 189 "bob.ml" 5 153 190
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"bob.ml" 5 153 191 "bob.ml" 5 153 194
+type(
+  char
+)
+"bob.ml" 5 153 155 "bob.ml" 5 153 194
+type(
+  bool
+)
+"bob.ml" 4 126 142 "bob.ml" 5 153 194
+type(
+  string -> bool
+)
+"bob.ml" 7 196 200 "bob.ml" 7 196 212
+type(
+  string -> string
+)
+ident(
+  def response_for "bob.ml" 11 384 404 "bob.ml" 1 0 -1
+)
+"bob.ml" 7 196 213 "bob.ml" 7 196 218
+type(
+  string
+)
+ident(
+  def input "bob.ml" 7 196 221 "bob.ml" 11 384 404
+)
+"bob.ml" 7 196 227 "bob.ml" 7 196 238
+type(
+  string -> string
+)
+ident(
+  ext_ref String.trim
+)
+"bob.ml" 7 196 239 "bob.ml" 7 196 244
+type(
+  string
+)
+ident(
+  int_ref input "bob.ml" 7 196 213 "bob.ml" 7 196 218
+)
+"bob.ml" 7 196 227 "bob.ml" 7 196 244
+call(
+  stack
+)
+type(
+  string
+)
+"bob.ml" 8 250 254 "bob.ml" 8 250 256
+type(
+  string
+)
+"bob.ml" 8 250 260 "bob.ml" 8 250 280
+type(
+  string
+)
+"bob.ml" 9 281 285 "bob.ml" 9 281 292
+type(
+  string
+)
+ident(
+  def message "bob.ml" 9 281 298 "bob.ml" 9 281 313
+)
+"bob.ml" 9 281 298 "bob.ml" 9 281 305
+type(
+  string -> bool
+)
+ident(
+  int_ref is_yell "bob.ml" 1 0 4 "bob.ml" 1 0 11
+)
+"bob.ml" 9 281 306 "bob.ml" 9 281 313
+type(
+  string
+)
+ident(
+  int_ref message "bob.ml" 9 281 285 "bob.ml" 9 281 292
+)
+"bob.ml" 9 281 298 "bob.ml" 9 281 313
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  bool
+)
+"bob.ml" 9 281 317 "bob.ml" 9 281 335
+type(
+  string
+)
+"bob.ml" 10 336 340 "bob.ml" 10 336 347
+type(
+  string
+)
+ident(
+  def message "bob.ml" 10 336 353 "bob.ml" 10 336 372
+)
+"bob.ml" 10 336 353 "bob.ml" 10 336 364
+type(
+  string -> bool
+)
+ident(
+  int_ref is_question "bob.ml" 4 126 130 "bob.ml" 4 126 141
+)
+"bob.ml" 10 336 365 "bob.ml" 10 336 372
+type(
+  string
+)
+ident(
+  int_ref message "bob.ml" 10 336 340 "bob.ml" 10 336 347
+)
+"bob.ml" 10 336 353 "bob.ml" 10 336 372
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  bool
+)
+"bob.ml" 10 336 376 "bob.ml" 10 336 383
+type(
+  string
+)
+"bob.ml" 11 384 388 "bob.ml" 11 384 389
+type(
+  string
+)
+"bob.ml" 11 384 393 "bob.ml" 11 384 404
+type(
+  string
+)
+"bob.ml" 7 196 221 "bob.ml" 11 384 404
+type(
+  string
+)
+"bob.ml" 7 196 213 "bob.ml" 11 384 404
+type(
+  string -> string
 )
