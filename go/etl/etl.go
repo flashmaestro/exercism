@@ -1,5 +1,7 @@
 package etl
 
+import ("strings")
+
 func Transform(given map[int][]string) map[string]int {
 	count :=0
     score := map[string]int{
@@ -18,9 +20,11 @@ func Transform(given map[int][]string) map[string]int {
 	
     result := make(map[string]int,count)
     
-    for index, num := range result {
-        result[ToLower(index)] = score[ToLower(index)]
-    }
+    for index := range given {
+        for key := range given[index] {
+            result[strings.ToLower(given[index][key])] = score[strings.ToLower(given[index][key])]
+        }
+    }    
     
     return result
 }
